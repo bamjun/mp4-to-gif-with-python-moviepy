@@ -22,4 +22,4 @@ elif args.resolution == 4:
 
 clip = VideoFileClip(mp4_file)
 clip = clip.resize(newsize=new_size)
-clip.write_videofile(gif_file, fps=5, codec='gif')
+clip.write_videofile(gif_file, fps=3, codec='gif')
